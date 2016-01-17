@@ -5,7 +5,7 @@
 #   None
 
 module.exports = (robot) ->
-  robot.router.post "/moga-bot/backlog/:room", (req, res) ->
+  robot.router.post "/moga-bot/backlog", (req, res) ->
     room = req.params.room
     body = req.body
 
